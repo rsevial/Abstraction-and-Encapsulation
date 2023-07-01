@@ -2,6 +2,7 @@
 # Test drive for Car class
 
 # Import the class from car_class
+from car_class import Car
 # Create object for Car
 # Create For loop to get the speed of the car
 # when accelerating
