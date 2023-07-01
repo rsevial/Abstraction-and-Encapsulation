@@ -4,6 +4,9 @@
 # Import the class from the fan_class
 from fan_class import Fan
 # Define function for testing the fan, 2 times
+def TestFan():
+    first_try = Fan()
+    second_try = Fan()
 # Assigning the values of each attributes fro first and second try
 # Print the output
 # Call the main function
