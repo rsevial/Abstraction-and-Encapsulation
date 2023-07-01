@@ -13,4 +13,7 @@ for i in range(5):
 # Print current speed when accelarating
 print("The current speed of the car is:", car_object.get_speed(), '\n')
 # when braking
+for i in range(5):
+    car_object.brake()
+    print("Brake:", car_object.get_speed())
 # Print current speed when braking
