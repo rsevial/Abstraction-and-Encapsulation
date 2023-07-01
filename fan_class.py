@@ -40,5 +40,7 @@ class Fan:
     # Define method set_on
     def set_on(self, on):
         self.__on = on    
-# Define method set_radius
+    # Define method set_radius
+    def set_radius(self, radius):
+        self.__radius = radius
 # Define method set_color
