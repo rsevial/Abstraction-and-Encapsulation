@@ -35,8 +35,10 @@ class Fan:
         else:
             print("Speed is out-of-range. Set the speed again.")
     # Define method set_on
-    def set_on(self, on):
-        self.__on = on    
+    def set_fan_on(self):
+        self.__on = True
+    def set_fan_off(self):
+        self.__on = False
     # Define method set_radius
     def set_radius(self, radius):
         self.__radius = radius

@@ -7,6 +7,7 @@ from fan_class import Fan
 def TestFan():
     first_try = Fan()
     second_try = Fan()
-# Assigning the values of each attributes fro first and second try
+# Assigning the values of each attributes for first try and second try
+    # first_try
 # Print the output
 # Call the main function
