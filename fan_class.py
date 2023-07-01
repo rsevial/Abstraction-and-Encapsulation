@@ -21,7 +21,9 @@ class Fan:
         else:
             print("Speed, out-of-range. Set the speed again.")
 # Create the getters for the four private data
-# Define method get_speed
+    # Define method get_speed
+    def get_speed(self):
+        return self.__speed
 # Define method get_on
 # Define method get_radius
 # Define method get_color
