@@ -2,6 +2,8 @@
 # Design a class named Fan to represent a fan
 
 # Create a class named Fan
+class Fan:
+    pass
 # Define constructor of the Fan (speed, on, radius, color)
 # Create a private data named speed, on, radius, color
 # Define fan speed
