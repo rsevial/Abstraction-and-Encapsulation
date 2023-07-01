@@ -9,5 +9,9 @@ def TestFan():
     second_try = Fan()
 # Assigning the values of each attributes for first try and second try
     # first_try
+    first_try.set_speed(3)
+    first_try.set_fan_on()
+    first_try.set_radius(10)
+    first_try.set_color("Yellow")
 # Print the output
 # Call the main function
