@@ -2,6 +2,7 @@
 # Test drive for Pet class
 
 # Import class from pet_class
+from pet_class import Pet
 # Create object for pet
 # Ask user the name of their pet
 # Ask user the animal type of their pet
