@@ -30,7 +30,9 @@ class Fan:
     # Define method get_radius
     def get_radius(self):
         return self.__radius
-# Define method get_color
+    # Define method get_color
+    def get_color(self):
+        return self.__color
 # Create setters for the four private data
 # Define method set_speed
 # Define method set_on
