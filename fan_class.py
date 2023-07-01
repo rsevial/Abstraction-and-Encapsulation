@@ -10,7 +10,16 @@ class Fan:
         self.__on = on
         self.__radius = radius
         self.__color = color
-# Define fan speed
+    # Define fan speed
+    def speed(self, speed):
+        if speed == 1:
+            self.__speed = "slow"
+        elif speed == 2:
+            self.__speed = "medium"
+        elif speed == 3:
+            self.__speed = "fast"
+        else:
+            print("Speed, out-of-range. Set the speed again.")
 # Create the getters for the four private data
 # Define method get_speed
 # Define method get_on
