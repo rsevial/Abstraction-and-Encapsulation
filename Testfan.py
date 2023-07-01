@@ -14,4 +14,8 @@ def TestFan():
     first_try.set_radius(10)
     first_try.set_color("Yellow")
 # Print the output
+    second_try.set_speed(2)
+    second_try.set_fan_off()
+    second_try.set_radius(5)
+    second_try.set_color("Blue") 
 # Call the main function
