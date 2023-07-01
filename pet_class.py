@@ -11,6 +11,8 @@ class Pet:
         self.__age = age
 # Create setters for the three private data
 # Define method set_name
+    def set_name(self):
+        return self.__name
 # Define method set_animal_type
 # Define method set_age
 # Create the getters for the three private data
