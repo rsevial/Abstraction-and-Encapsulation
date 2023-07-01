@@ -3,9 +3,13 @@
 
 # Create a class named Fan
 class Fan:
-    pass
-# Define constructor of the Fan (speed, on, radius, color)
-# Create a private data named speed, on, radius, color
+    # Define constructor of the Fan (speed, on, radius, color)
+    def __init__(self, speed="slow",on = False, radius=5, color='blue'):
+        # Create a private data named speed, on, radius, color
+        self.__speed = speed
+        self.__on = on
+        self.__radius = radius
+        self.__color = color
 # Define fan speed
 # Create the getters for the four private data
 # Define method get_speed
