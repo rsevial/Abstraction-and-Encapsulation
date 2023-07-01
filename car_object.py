@@ -4,6 +4,7 @@
 # Import the class from car_class
 from car_class import Car
 # Create object for Car
+car_object = Car(2020, "Inova", 0)
 # Create For loop to get the speed of the car
 # when accelerating
 # Print current speed when accelarating
