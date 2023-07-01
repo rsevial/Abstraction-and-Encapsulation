@@ -18,8 +18,12 @@ def TestFan():
     second_try.set_fan_off()
     second_try.set_radius(5)
     second_try.set_color("Blue") 
+    # import module to edit the font and color
+    import fontstyle
     # Print the output
-    print('First try\nSpeed: ', first_try.get_speed(), '\nRadius: ', first_try.get_radius(), '\nColor: ', first_try.get_color(), '\nOn/Off: ', first_try.get_on())
-    print('\nSecond try\nSpeed: ', second_try.get_speed(), '\nRadius: ', second_try.get_radius(), '\nColor: ', second_try.get_color(), '\nOn/Off: ', second_try.get_on())
+    print(fontstyle.apply('First Object', 'bold/UNDERLINE/yellow'))
+    print('Speed: ', fontstyle.apply(first_try.get_speed(), 'Italic'), '\nRadius: ', fontstyle.apply(first_try.get_radius(), 'Italic'), '\nColor: ', fontstyle.apply(first_try.get_color(), 'Italic'), '\nOn/Off: ', fontstyle.apply(first_try.get_on(), 'Italic'),'\n')
+    print(fontstyle.apply('Second Object', 'bold/UNDERLINE/blue'))
+    print('Speed: ', fontstyle.apply(second_try.get_speed(), 'Italic'), '\nRadius: ', fontstyle.apply(second_try.get_radius(), 'Italic'), '\nColor: ', fontstyle.apply(second_try.get_color(), 'Italic'), '\nOn/Off: ', fontstyle.apply(second_try.get_on(), 'Italic'))
 # Call the main function
 TestFan()

@@ -27,11 +27,11 @@ class Fan:
     # Define method set_speed
     def set_speed(self, speed):
         if speed == 1:
-            self.__speed = "slow"
+            self.__speed = "Slow"
         elif speed == 2:
-            self.__speed = "medium"
+            self.__speed = "Medium"
         elif speed == 3:
-            self.__speed = "fast"
+            self.__speed = "Fast"
         else:
             print("Speed is out-of-range. Set the speed again.")
     # Define method set_on
