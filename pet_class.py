@@ -2,6 +2,7 @@
 # Design a class named Pet
 
 # Create class named Pet
+class Pet:
 # Define constructor of the Pet (name, animal_type, age)
 # Create a private data for the name, animal_type, age
 # Create setters for the three private data
