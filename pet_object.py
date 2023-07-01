@@ -9,5 +9,6 @@ pet_name = input("Enter the name of your pet: ")
 # Ask user the animal type of their pet
 pet_animal_type = input("Enter the animal type of your pet: ")
 # Ask user the age of their pet
+pet_age = input("Enter the age of your pet: ")
 # Create object from the ans of the user
 # Print the name, animal type and age of their pet
