@@ -4,7 +4,11 @@
 # Create class named Pet
 class Pet:
 # Define constructor of the Pet (name, animal_type, age)
+    def __init__(self, name, animal_type, age):
 # Create a private data for the name, animal_type, age
+        self.__name = name
+        self.__animal_type = animal_type
+        self.__age = age
 # Create setters for the three private data
 # Define method set_name
 # Define method set_animal_type
