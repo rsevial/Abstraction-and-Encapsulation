@@ -34,7 +34,9 @@ class Fan:
     def get_color(self):
         return self.__color
 # Create setters for the four private data
-# Define method set_speed
+    # Define method set_speed
+    def set_speed(self, speed):
+        self.__speed = speed
 # Define method set_on
 # Define method set_radius
 # Define method set_color
