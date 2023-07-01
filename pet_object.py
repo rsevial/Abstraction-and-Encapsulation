@@ -1,2 +1,10 @@
 # Programmed by: Rebekah Joy E. Sevial
 # Test drive for Pet class
+
+# Import class from pet_class
+# Create object for pet
+# Ask user the name of their pet
+# Ask user the animal type of their pet
+# Ask user the age of their pet
+# Create object from the ans of the user
+# Print the name, animal type and age of their pet
